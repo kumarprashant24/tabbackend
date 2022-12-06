@@ -16,7 +16,7 @@ app.use(
 )
 app.get('/', (req, res) => {
 
-  res.send("hello word");
+  // res.send("hello word");
  
 });
 app.use('/api/account-service/tab/accounts', transactionalRecords)

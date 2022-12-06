@@ -3,7 +3,10 @@
     {
         "src":"./src/server.js",
         "use":"@vercel/node"
-    }
+    },
+    {
+        "buildCommand": "next build"
+      }
     ],
     "routes":[
         {

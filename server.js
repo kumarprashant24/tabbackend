@@ -14,11 +14,6 @@ app.use(
     credentials: 'true',
   }),
 )
-app.get('/', (req, res) => {
-
-  res.send("hello word");
- 
-});
 app.use('/api/account-service/tab/accounts', transactionalRecords)
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}...`))
